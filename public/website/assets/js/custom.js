@@ -170,12 +170,5 @@
     });
   }
 
-
-
-
 })(window.jQuery);
 
-window.onload = function() {
-  var spinner = document.getElementById('spinner');
-  spinner.style.display = 'none'; // Hide spinner once the page is loaded
-};
