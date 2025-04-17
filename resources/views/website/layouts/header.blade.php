@@ -1,15 +1,5 @@
   
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner"> 
-    <div class="spinner-container">
-        <div class="spinner"></div>
-        <div class="spinner-inner"></div>
-  <div class="text">Loading...</div>
-    </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
+
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">

@@ -7,6 +7,8 @@
 @php 
         $gallery =App\Models\Sliders::where('status',1)->get();
         @endphp
+
+
   <div class="main-banner" id="top">
     <div class="container">
       <div class="row">

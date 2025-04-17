@@ -157,13 +157,6 @@
 
 
 
-	// Page loading animation
-	 $(window).on('load', function() {
-
-        $('#js-preloader').addClass('loaded');
-
-    });
-
 	
 
 	// Window Resize Mobile Menu Fix
@@ -181,3 +174,8 @@
 
 
 })(window.jQuery);
+
+window.onload = function() {
+  var spinner = document.getElementById('spinner');
+  spinner.style.display = 'none'; // Hide spinner once the page is loaded
+};
